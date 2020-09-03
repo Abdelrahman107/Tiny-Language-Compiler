@@ -1,0 +1,190 @@
+Input:
+/*Sample program includes all rules*/
+int sum(int a, int b)
+{
+return a + b;
+}
+int main()
+{
+int val, counter;
+read val;
+counter:=0;
+repeat
+val := val - 1;
+write "Iteration number [";
+write counter;
+write "] the value of x = ";
+write val;
+write endl;
+counter := counter+1;
+until val = 1
+write endl;
+string s := "number of Iterations = ";
+write s;
+counter:=counter-1;
+write counter;
+/* complicated equation */
+float z1 := 3*2*(2+1)/2-5.3;
+z1 := z1 + sum(1,y);
+if z1 > 5 || z1 < counter && z1 = 1 then
+write z1;
+elseif z1 < 5 then
+z1 := 5;
+else
+z1 := counter;
+end
+return 0;
+}
+
+
+
+---------
+Output:
+int	RESERVED_WORD_INT
+sum	T_ID_sum
+(	T_LeftBracket
+int	RESERVED_WORD_INT
+a	T_ID_a
+,	T_COMMA
+int	RESERVED_WORD_INT
+b	T_ID_b
+)	T_RightBracket
+{	T_LeftBrace
+return	RESERVED_WORD_RETURN
+a	T_ID_a
++	T_PLUS
+b	T_ID_b
+;	T_SemiColon
+}	T_RightBrace
+int	RESERVED_WORD_INT
+main	RESERVED_WORD_MAIN
+(	T_LeftBracket
+)	T_RightBracket
+{	T_LeftBrace
+int	RESERVED_WORD_INT
+val	T_ID_val
+,	T_COMMA
+counter	T_ID_counter
+;	T_SemiColon
+read	RESERVED_WORD_READ
+val	T_ID_val
+;	T_SemiColon
+counter	T_ID_counter
+:=	T_ASSIGN
+0	T_NUMBER
+;	T_SemiColon
+repeat	RESERVED_WORD_REPEAT
+val	T_ID_val
+:=	T_ASSIGN
+val	T_ID_val
+-	T_MINUS
+1	T_NUMBER
+;	T_SemiColon
+write	RESERVED_WORD_WRITE
+"Iteration number ["	T_STRING
+;	T_SemiColon
+write	RESERVED_WORD_WRITE
+counter	T_ID_counter
+;	T_SemiColon
+write	RESERVED_WORD_WRITE
+"] the value of x = "	T_STRING
+;	T_SemiColon
+write	RESERVED_WORD_WRITE
+val	T_ID_val
+;	T_SemiColon
+write	RESERVED_WORD_WRITE
+endl	RESERVED_WORD_ENDL
+;	T_SemiColon
+counter	T_ID_counter
+:=	T_ASSIGN
+counter	T_ID_counter
++	T_PLUS
+1	T_NUMBER
+;	T_SemiColon
+until	RESERVED_WORD_UNTIL
+val	T_ID_val
+=	T_ISEQ
+1	T_NUMBER
+write	RESERVED_WORD_WRITE
+endl	RESERVED_WORD_ENDL
+;	T_SemiColon
+string	RESERVED_WORD_STRING
+s	T_ID_s
+:=	T_ASSIGN
+"number of Iterations = "	T_STRING
+;	T_SemiColon
+write	RESERVED_WORD_WRITE
+s	T_ID_s
+;	T_SemiColon
+counter	T_ID_counter
+:=	T_ASSIGN
+counter	T_ID_counter
+-	T_MINUS
+1	T_NUMBER
+;	T_SemiColon
+write	RESERVED_WORD_WRITE
+counter	T_ID_counter
+;	T_SemiColon
+float	RESERVED_WORD_FLOAT
+z1	T_ID_z1
+:=	T_ASSIGN
+3	T_NUMBER
+*	T_TIMES
+2	T_NUMBER
+*	T_TIMES
+(	T_LeftBracket
+2	T_NUMBER
++	T_PLUS
+1	T_NUMBER
+)	T_RightBracket
+/	T_OVER
+2	T_NUMBER
+-	T_MINUS
+5.3	T_FLOAT
+;	T_SemiColon
+z1	T_ID_z1
+:=	T_ASSIGN
+z1	T_ID_z1
++	T_PLUS
+sum	T_ID_sum
+(	T_LeftBracket
+1	T_NUMBER
+,	T_COMMA
+y	T_ID_y
+)	T_RightBracket
+;	T_SemiColon
+if	RESERVED_WORD_IF
+z1	T_ID_z1
+>	T_GT
+5	T_NUMBER
+||	T_OR
+z1	T_ID_z1
+<	T_LT
+counter	T_ID_counter
+&&	T_AND
+z1	T_ID_z1
+=	T_ISEQ
+1	T_NUMBER
+then	RESERVED_WORD_THEN
+write	RESERVED_WORD_WRITE
+z1	T_ID_z1
+;	T_SemiColon
+elseif	RESERVED_WORD_ELSEIF
+z1	T_ID_z1
+<	T_LT
+5	T_NUMBER
+then	RESERVED_WORD_THEN
+z1	T_ID_z1
+:=	T_ASSIGN
+5	T_NUMBER
+;	T_SemiColon
+else	RESERVED_WORD_ELSE
+z1	T_ID_z1
+:=	T_ASSIGN
+counter	T_ID_counter
+;	T_SemiColon
+end	RESERVED_WORD_END
+return	RESERVED_WORD_RETURN
+0	T_NUMBER
+;	T_SemiColon
+}	T_RightBrace

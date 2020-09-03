@@ -1,0 +1,10 @@
+C:\Users\Mahmoud\source\repos\gui2\bin\Debug\gui2.exe.config
+C:\Users\Mahmoud\source\repos\gui2\bin\Debug\gui2.exe
+C:\Users\Mahmoud\source\repos\gui2\bin\Debug\gui2.pdb
+C:\Users\Mahmoud\source\repos\gui2\obj\Debug\Compiler.csprojAssemblyReference.cache
+C:\Users\Mahmoud\source\repos\gui2\obj\Debug\gui2.Form1.resources
+C:\Users\Mahmoud\source\repos\gui2\obj\Debug\gui2.Properties.Resources.resources
+C:\Users\Mahmoud\source\repos\gui2\obj\Debug\Compiler.csproj.GenerateResource.cache
+C:\Users\Mahmoud\source\repos\gui2\obj\Debug\Compiler.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud\source\repos\gui2\obj\Debug\gui2.exe
+C:\Users\Mahmoud\source\repos\gui2\obj\Debug\gui2.pdb

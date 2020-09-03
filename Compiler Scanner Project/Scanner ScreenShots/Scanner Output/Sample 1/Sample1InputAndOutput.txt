@@ -1,0 +1,66 @@
+
+/* Sample program in Tiny language – computes factorial*/
+int main()
+{
+int x;
+read x; /*input an integer*/
+if x > 0 then /*don’t compute if x <= 0 */
+int fact := 1;
+repeat
+fact := fact * x;
+x := x – 1;
+until x = 0
+write fact; /*output factorial of x*/
+end
+return 0;
+} 
+
+----------------------------
+Output:
+int	RESERVED_WORD_INT
+main	RESERVED_WORD_MAIN
+(	T_LeftBracket
+)	T_RightBracket
+{	T_LeftBrace
+int	RESERVED_WORD_INT
+x	T_ID_x
+;	T_SemiColon
+read	RESERVED_WORD_READ
+x	T_ID_x
+;	T_SemiColon
+if	RESERVED_WORD_IF
+x	T_ID_x
+>	T_GT
+0	T_NUMBER
+then	RESERVED_WORD_THEN
+int	RESERVED_WORD_INT
+fact	T_ID_fact
+:=	T_ASSIGN
+1	T_NUMBER
+;	T_SemiColon
+repeat	RESERVED_WORD_REPEAT
+fact	T_ID_fact
+:=	T_ASSIGN
+fact	T_ID_fact
+*	T_TIMES
+x	T_ID_x
+;	T_SemiColon
+x	T_ID_x
+:=	T_ASSIGN
+x	T_ID_x
+–	Undefined_Symbol_ERROR
+1	T_NUMBER
+;	T_SemiColon
+until	RESERVED_WORD_UNTIL
+x	T_ID_x
+=	T_ISEQ
+0	T_NUMBER
+write	RESERVED_WORD_WRITE
+fact	T_ID_fact
+;	T_SemiColon
+end	RESERVED_WORD_END
+return	RESERVED_WORD_RETURN
+0	T_NUMBER
+;	T_SemiColon
+}	T_RightBrace
+

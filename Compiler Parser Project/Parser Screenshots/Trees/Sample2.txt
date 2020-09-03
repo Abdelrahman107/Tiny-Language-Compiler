@@ -1,0 +1,9 @@
+a:=5;
+b:=2;
+c:=1;
+d:= 2*c;
+repeat
+if x=y then 
+read y
+end 
+until a<b+c*d
